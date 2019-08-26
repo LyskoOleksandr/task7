@@ -1,7 +1,7 @@
 
 function removeError(element) {
-    element.classList.removeError('error')
-}
+    element.classList.remove('error');
+  }
 
 
 const submit = document.getElementById('submit');
